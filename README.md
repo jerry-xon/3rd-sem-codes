@@ -17,7 +17,7 @@ Hello everyone I am initializing this Github repo for helping each other out for
 COMMANDAS:
 
 #git clone [copied link]
-#git checkout -b [name_you_the_new_branch]
+#git checkout main -b [name_you_the_new_branch]
 #git commit -m "write any massage"
 
 
