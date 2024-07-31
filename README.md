@@ -13,15 +13,13 @@ Hello everyone I am initializing this Github repo for helping each other out for
 
 #now you can commit and push your code and publish the branch you are working on. 
 
+Commands:
+```
+git clone [copied link]
+git checkout main -b [name_of_the_new_branch]
+git commit -m "write any message"
 
-COMMANDAS:
-‘‘‘
-
-#git clone [copied link]
-#git checkout main -b [name_you_the_new_branch]
-#git commit -m "write any massage"
-
-‘‘‘
+```
 
 
 
