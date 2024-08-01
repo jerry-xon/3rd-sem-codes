@@ -8,8 +8,7 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Ashok Sharma/Documents/GitHub/3rd-sem-codes",
-      "program": "c:/Users/Ashok Sharma/Documents/GitHub/3rd-sem-codes/build/Debug/outDebug",
+
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
