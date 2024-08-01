@@ -8,8 +8,7 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/sukha/OneDrive/Desktop/class codes/3rd-sem-codes",
-      "program": "c:/Users/sukha/OneDrive/Desktop/class codes/3rd-sem-codes/build/Debug/outDebug",
+
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
