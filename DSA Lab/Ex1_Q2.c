@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <string.h>
 #define MAX_STUDENT 4
