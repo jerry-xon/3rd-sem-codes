@@ -43,7 +43,7 @@ int main()
     int choice;
     do
     {
-        printf("\n-------------Queue Operations-------------\n");
+        printf("\n-------------Queue Operations--------------\n");
         printf("1.Insert\n2.Delet\n3.Display\n4.Exit\n");
         printf("-------------Enter you Choice-------------\n");
         scanf("%d",&choice);
