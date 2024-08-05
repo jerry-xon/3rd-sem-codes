@@ -8,7 +8,7 @@ int main()
     int choice;
     while (choice!=4)
     {
-        printf("\n-------------Queue Operations-------------\n");
+        printf("\n-------------Queue Operations--------------\n");
         printf("1.Insert\n2.Delete\n3.Display\n4.Exit\n");
         printf("-------------Enter you Choice-------------\n");
         scanf("%d",&choice);
