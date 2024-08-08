@@ -51,3 +51,8 @@ int main()
 
     return 0;
 }
+
+/*mplementing a structured program in C to print data of a student with individual initialization of 
+member variables in the student database.
+ Note: an entity Student may have its name (string), roll number (int), and marks (float).
+use pointers for structure*/

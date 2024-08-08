@@ -112,3 +112,9 @@ int main()
 
     return 0;
 }
+
+/*Implement the Nested structure in C, to store the address of the employee, and the address of the employee into a separate structure(like Door no, street name, city, and State) and nest the structure address into the structure employee and print it.
+
+Note:
+use pointers for structure
+*/
