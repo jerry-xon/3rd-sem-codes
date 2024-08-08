@@ -89,3 +89,5 @@ int main() {
 }
 
 
+/*Matrix multiplication using
+ dynamic memory allocation ( malloc)*/

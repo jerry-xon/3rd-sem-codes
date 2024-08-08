@@ -103,3 +103,7 @@ int main()
 
     return 0;
 }
+
+/*Implement the Nested structure in C using an array, Modify the above program with multiple student details,
+ and also calculate the total and grade of the students and display it.
+ use pointers for structure*/
