@@ -1,0 +1,43 @@
+You are tasked with managing a payroll system for a small company. 
+The company needs to calculate the net pay of employees based on their 
+gross pay, with additional allowances for travel and dearness. 
+You are given a C program that defines an Employee structure and calculates 
+net pay. However, there are some errors and inefficiencies in the provided code.
+
+Tasks:
+Identify and Fix Errors:
+
+Identify and fix all errors in the provided code.
+Explain why each error occurs and how you fixed it.
+Time and Space Complexity:
+
+Analyze the time complexity of the calculateNetPay function.
+Analyze the space complexity of the calculateNetPay function.
+Conceptual Questions:
+
+What is the purpose of the Employee structure in the code?
+Describe how the calculateNetPay function computes the net pay.
+Why is it important to use correct format specifiers in scanf and printf?
+Edge Cases and Testing:
+
+What are some edge cases you should consider while testing this program?
+How would you handle invalid inputs for empID, empNME, and Grosspay?
+Optimization:
+
+Suggest any potential optimizations or improvements for this code.
+Explain how these changes could improve the performance or correctness of the program.
+Deliverables:
+Corrected Code:
+Provide the corrected version of the code with comments explaining the changes.
+
+Complexity Analysis:
+Provide detailed explanations for the time and space complexity analyses.
+
+Conceptual Answers:
+Answer the conceptual questions based on your understanding of the code and its functionality.
+
+Edge Cases:
+List at least three edge cases and explain how they affect the program. Provide code or strategies for handling these cases.
+
+Optimization Suggestions:
+Provide and explain your suggestions for optimizing the code.
