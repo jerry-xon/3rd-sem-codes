@@ -31,9 +31,9 @@ void Display(){
     if(top==-1){
         printf("\nStack is empty.");
     }else{
-        printf("\nStack elements are: ");
+        printf("\nStack elements are:\n");
         for(int i=top;i>=0;i--){
-            printf("%d ",Stack[i]);
+            printf("%d\n",Stack[i]);
         }
     }
 }

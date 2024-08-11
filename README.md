@@ -3,6 +3,9 @@ Hello everyone I am initializing this Github repo for helping each other out for
 
 🚀 Steps to use this repo in you system:
 
+=======
+ Steps to use this repo in you system:
+
 🚀 Step 1: open the repo click on the 
 ```<>Code``` button which is in green colour.
 🚀 Step 2: copy the https link.
@@ -11,7 +14,6 @@ Hello everyone I am initializing this Github repo for helping each other out for
 🚀 Step 5: write ```#git clone``` and then paste the link.
 🚀 Step 6: then create a new branch using #git checkout ```-b [name_you_the_new_branch]```.
 🚀 Step 7: get set go you are ready to work in the new branch.
-
 #now you can commit and push your code and publish the branch you are working on. 
 
 Commands:
