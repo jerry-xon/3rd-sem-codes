@@ -1,0 +1,21 @@
+Q.1) 
+
+Write a program using structures, to calculate the complex numbers: 
+Real part should be multiplied with the real and complex with the complex 
+
+same operation with both product and sum.
+
+take variables: 
+"real", "complex", "product", "sum"
+
+Instances: 
+"c1", "c2"
+
+data types: 
+int, complex
+
+functions to be created: 
+addComplex(), productComplex()
+
+
+Note: Follow camel casing for naming conventions.
