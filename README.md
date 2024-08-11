@@ -18,7 +18,7 @@ Commands:
 ```
 git clone [copied link]
 git checkout main -b [name_of_the_new_branch]
-git commit -m "write any message"
+git commit -m "write a message"
 
 ```
 
