@@ -89,6 +89,15 @@ void insertele(List *list, int index, int value)
     }
 }
 
+int search(List *list, int value){
+    for(int i = 0; i < list->size;i++){
+        if(list->data[i] == value){
+            return i;
+        }
+    }
+    return -1;
+}
+
 int main()
 {
     List list;
@@ -103,7 +112,8 @@ int main()
         printf("3. Get element from the list\n");
         printf("4. Print the list\n");
         printf("5. Insert element at a specific index\n");
-        printf("6. Exit\n");
+        printf("6. Search for an element\n");
+        printf("7. Exit\n");
         printf("-------------Enter your choice-------------\n");
         scanf("%d", &choice);
 
@@ -139,9 +149,21 @@ int main()
             scanf("%d", &index);
             printf("Enter the value to insert: ");
             scanf("%d", &value);
-            insertAt(&list, index, value);
+            insertele(&list, index, value);
             break;
         case 6:
+            printf("Enter the value to search: ");
+            scanf("%d", &value);
+            index = search(&list, value);
+            if (index != -1){
+                printf("Element %d is found %d.", value ,index);
+            }
+            else{
+                printf("Element %d is not found", value);
+            }
+            break;
+            
+        case 7:
             printf("Exiting....");
             return 0;
 
