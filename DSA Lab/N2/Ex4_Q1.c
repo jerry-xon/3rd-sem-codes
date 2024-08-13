@@ -30,7 +30,7 @@ void add(List *list, int value)
 // Remove an element from the list at a specific index
 void removeAt(List *list, int index)
 {
-    if (index == 0 || index <= list->size)
+    if (index == 0 || index < list->size)
     {
         for (int i = index; i < list->size - 1; i++)
         {
@@ -105,7 +105,7 @@ int main()
     int choice, value, index;
 
     while (1)
-    {
+    {  
         printf("\n-------------List Operations-------------\n");
         printf("1. Add element to the list\n");
         printf("2. Remove element from index of the list\n");
