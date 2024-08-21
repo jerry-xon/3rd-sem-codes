@@ -95,7 +95,7 @@ struct node *del_end(struct node *head) {
     return head;
 }
 
-//add node at a position function
+//add node at a position functio n
 void add_at_pos(struct node *head, int data, int pos) {
     struct node *ptr = head;
     struct node *ptr2 = (struct node *)malloc(sizeof(struct node));
@@ -173,7 +173,7 @@ int main() {
                 count_of_node(head);
                 break;
             case 3:
-                printf("Enter data to add at beginning: ");
+                 printf("Enter data to add at beginning: ");
                 scanf("%d", &data);
                 head = add_beg(head, data);
                 break;
