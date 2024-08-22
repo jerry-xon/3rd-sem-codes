@@ -95,7 +95,7 @@ struct node *del_end(struct node *head) {
     return head;
 }
 
-//add node at a position functio n
+//add node at a position function
 void add_at_pos(struct node *head, int data, int pos) {
     struct node *ptr = head;
     struct node *ptr2 = (struct node *)malloc(sizeof(struct node));
