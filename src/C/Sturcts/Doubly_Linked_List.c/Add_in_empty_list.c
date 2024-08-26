@@ -7,15 +7,20 @@ struct node {
     struct node *next;
 };
 
+struct node *addempty(struct node *head, int data) {
+    struct node *temp = malloc(sizeof(struct node));
+    temp->prev = NULL;
+    temp->data = data;
+    temp->next = NULL;
+    head = temp;  // Correctly assign the new node to head
+    return head;
+}
 
 int main() {
     struct node* head = NULL;
-    head = (struct node *)malloc(sizeof(struct node));
     struct node* ptr;
-    head->data = 10;
-    head->prev = NULL;
-    head->next = NULL;
 
+    head = addempty(head, 50);
 
     ptr = head;
     while (ptr != NULL) {
