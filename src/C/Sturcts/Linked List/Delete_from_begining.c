@@ -47,9 +47,6 @@ int main()
     head->link = NULL;
 
     struct node *ptr = NULL;
-
-
-    
     add_at_end(head,50);
     add_at_end(head,30);
     add_at_end(head,69);
