@@ -8,12 +8,9 @@ struct node{
 
 struct node* add_beg(struct node *head, int data){
     struct node *ptr;
-
     ptr = (struct node *)malloc(sizeof(struct node));
     ptr->data = data;
     ptr->link = NULL;
-
-   
     ptr->link = head;
     head = ptr;
     return head;
@@ -34,16 +31,16 @@ int main()
     head->data = 10;
     head->link = NULL;
     
-    struct node *ptr = NULL;
-    ptr = (struct node *)malloc(sizeof(struct node));
-    ptr->data = 20;
-    ptr->link = NULL;
-    head->link = ptr;
+    struct node *current = NULL;
+    current = (struct node *)malloc(sizeof(struct node));
+    current->data = 20;
+    current->link = NULL;
+    head->link = current;
 
     int data = 3;
 
     head = add_beg(head,data);
-    ptr = head;
+    current = head;
 
 
 

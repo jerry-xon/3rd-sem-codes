@@ -7,8 +7,9 @@ struct node{
 };
 
 void print_data(struct node *head){
-  if(head == NULL)
+  if(head == NULL){
     printf("List is empty.\n");
+  }
   struct node *ptr = NULL;
   ptr = head;
   while(ptr != NULL){
@@ -26,7 +27,7 @@ int main()
     current = (struct node *)malloc(sizeof(struct node));
     current->data = 20;
     current->link = NULL;
-    head->link = current;
+    head->link = current; //this line is to connect both nodes head and current
 
     current = (struct node *)malloc(sizeof(struct node));
     current->data = 30;

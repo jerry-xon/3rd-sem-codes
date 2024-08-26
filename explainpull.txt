@@ -1,1 +1,0 @@
-this is a file to explain git pull and git push 
