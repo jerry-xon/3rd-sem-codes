@@ -3,7 +3,7 @@ Hello everyone I am initializing this Github repo for helping each other out for
 
 🚀 Steps to use this repo in you system:
 
-=======
+======
  Steps to use this repo in you system:
 
 🚀 Step 1: open the repo click on the 
