@@ -7,7 +7,7 @@ struct node {
     struct node *link;
 };
 
-//Print data of the list function
+//function to print data of the lsit
 void print_data(struct node *head) {
     if (head == NULL) {
         printf("List is empty.\n");
