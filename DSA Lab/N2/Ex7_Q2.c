@@ -10,7 +10,6 @@ struct Node
 // Push function to add an element to the stack
 void Push(struct Node **top_ref, int new_data)
 {
-
     struct Node *new_node = (struct Node *)malloc(sizeof(struct Node));
 
     // Check if memory allocation failed
@@ -21,9 +20,7 @@ void Push(struct Node **top_ref, int new_data)
     }
 
     new_node->data = new_data;
-
     new_node->link = *top_ref;
-
     *top_ref = new_node;
 
     printf("\nPushed %d to the stack.", new_data);
@@ -43,14 +40,12 @@ void Pop(struct Node **top_ref)
     *top_ref = (*top_ref)->link;
 
     printf("\nPopped %d from the stack.", temp->data);
-
     free(temp);
 }
 
 // Display function to print the stack elements
 void Display(struct Node *top)
 {
-
     if (top == NULL)
     {
         printf("\nStack is empty.");
@@ -58,11 +53,19 @@ void Display(struct Node *top)
     }
 
     printf("\nStack elements are:\n");
-
     while (top != NULL)
     {
         printf("%d\n", top->data);
         top = top->link;
+    }
+}
+
+// Function to free all elements in the stack
+void FreeStack(struct Node **top_ref)
+{
+    while (*top_ref != NULL)
+    {
+        Pop(top_ref);
     }
 }
 
@@ -92,7 +95,8 @@ int main()
             Display(top);
             break;
         case 4:
-            printf("\nExiting...");
+            printf("\nExiting and freeing memory...\n");
+            FreeStack(&top); // Free all the elements before exiting
             break;
         default:
             printf("\nInvalid choice.");
