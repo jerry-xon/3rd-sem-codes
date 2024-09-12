@@ -44,7 +44,7 @@ int main()
     do
     {
         printf("\n-------------Queue Operations--------------\n");
-        printf("1.Insert\n2.Delet\n3.Display\n4.Exit\n");
+        printf("1.Insert\n2.Delete\n3.Display\n4.Exit\n");
         printf("-------------Enter you Choice-------------\n");
         scanf("%d",&choice);
         switch (choice)
