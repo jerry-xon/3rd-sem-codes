@@ -1,5 +1,4 @@
-#include <stdio.h>
-
+#include<stdio.h>
 // Function to perform the Tower of Hanoi
 void towerOfHanoi(int n, char from_rod, char to_rod, char aux_rod) {
     // Base case: If there's only 1 disk, move it directly
