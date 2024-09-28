@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 // Define a structure for a Process
 typedef struct Process {
     int processID;
