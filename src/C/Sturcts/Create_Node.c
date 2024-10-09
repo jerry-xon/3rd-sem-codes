@@ -5,6 +5,8 @@ struct node{
     int data;
     struct node *link;
 };
+
+//main function
 int main()
 {   struct node *head = NULL;
     head = (struct node *)malloc(sizeof(struct node));
